@@ -38,19 +38,19 @@ def get_colors_sshws(wind_speed):
     if wind_speed < 5:
         return '#FFFFFF'
     elif wind_speed < 34:
-        return '#8FC2F2'  # '#7DB7ED'
+        return '#5EBAFF'  # '#7DB7ED'
     elif wind_speed < 64:
-        return '#3185D3'
+        return '#00FAF4'
     elif wind_speed < 83:
-        return '#FFFF00'
+        return '#FFFFCC'
     elif wind_speed < 96:
-        return '#FF9E00'
+        return '#FFE775'
     elif wind_speed < 113:
-        return '#DD0000'
+        return '#FFC140'
     elif wind_speed < 137:
-        return '#FF00FC'
+        return '#FF8F20'
     else:
-        return '#8B0088'
+        return '#FF6060'
 
 
 def get_colors_sshws_recon(wind_speed):
